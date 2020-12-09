@@ -8,9 +8,15 @@
 <body>
     <h1>Première page !</h1>
     <?php 
-    
-    echo '<ul><li>pomme</li><li>tomate</li><li>poire</li><li>orange</li><li>raisin</li></ul>';
-    
+    //Affichage de la liste
+    echo '
+        <ul>
+            <li>pomme</li>
+            <li>tomate</li>
+            <li>poire</li>
+            <li>orange</li>
+            <li>raisin</li>
+        </ul>';
     ?>
 </body>
 </html>
