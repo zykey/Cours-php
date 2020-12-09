@@ -1,3 +1,6 @@
+<?php 
+$admin = true;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +9,7 @@
     <title>Document</title>
 </head>
 <style>
-    p{
+    .class{
         color : red ;
     }
 </style>
@@ -14,11 +17,14 @@
     <h1>Exo 3</h1>
     <?php 
 
-    $admin = false;
-    if( $admin === true){
-        echo 'bienvenu <a href="#">admin</a>';
+    if( $admin){
+        ?>
+        <p>bienvenu <a href="#">admin</a></p>
+        <?php
     } else{
-        echo '<p>toi pas etre admin</p>';
+        ?>
+        <p class="error">toi pas etre admin</p>
+        <?php
     }
 
     ?>  
