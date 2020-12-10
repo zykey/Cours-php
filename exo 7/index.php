@@ -14,10 +14,14 @@
 <body>
     <?php 
     
-    $userInfos = ['name' => 'pierre', 
-                  'age' => 27,];
+    $userInfos = [
+                    'name' => 'pierre', 
+                    'age' => 27,
+                    'city' => 'marseille',
+                    'tel' =>  '0707070707',
+                ];
 
-    echo "je m'appel <span>"  .$userInfos['name'].  "</span> j'ai <span>" .$userInfos['age']. "</span>";
+    echo "je m'appel <span>"  .$userInfos['name'].  "</span> j'ai <span>" .$userInfos['age']. "</span> ans j'habite a <span>" .$userInfos['city']. "</span> mon numéro es <span>" .$userInfos['tel']."</span>";
     
     ?>
 </body>
